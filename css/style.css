@@ -11,7 +11,7 @@
   background-position: center;
   background-size: cover;
   max-width: 100%;
-  min-height: 1070px;
+  min-height: 1080px;
   transition: all 0.5s ease;
 }
 
@@ -56,9 +56,54 @@
   padding-top: 24px;
 }
 
+label {
+  top: 220px;
+  left: 49%;
+  transform: rotate(90deg);
+}
+ 
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+  visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 37px;
+	height: 23px;
+	background: none;
+	display: block;
+	border-radius: 100px;
+  position: relative;
+  border: 2px solid #fff;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 4px;
+	height: 4px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 20px;
+}
+
 .container {
   max-width: 1130px;
-  min-height: 588px;
+  min-height: 584px;
 }
 
 .content {
@@ -148,6 +193,7 @@
   background-position: center;
   background-size: cover;
   transition: all 0.5s ease;
+  min-height: 584px;
 }
 
 .wrapper-services:hover {
