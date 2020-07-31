@@ -41,7 +41,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 74px;
+  margin-top: 74px;
 }
 
 .text {
@@ -226,7 +226,7 @@ label:active:after {
   line-height: 19px;
   text-align: center;
   color: #3c3c3c;
-  padding-top: 42px;
+  margin-top: 42px;
 }
 
 .position__padding {
