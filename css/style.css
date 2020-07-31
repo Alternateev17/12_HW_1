@@ -53,7 +53,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 24px;
+  margin-top: 24px;
 }
 
 label {
@@ -178,11 +178,11 @@ label:active:after {
   line-height: 19px;
   text-align: center;
   color: #3c3c3c;
-  padding-top: 42px;
+  margin-top: 42px;
 }
 
 .text__size {
-  padding: 40px 0 56px;
+  margin: 40px 0 56px;
 }
 
 .text--color {
@@ -198,15 +198,15 @@ label:active:after {
 
 
 .icon__padding {
-  padding-top: 42px;
+  margin-top: 42px;
 }
 
 .icon__padding--1 {
-  padding-top: 64px;
+  margin-top: 64px;
 }
 
 .icon__padding--2 {
-  padding-top: 62px;
+  margin-top: 62px;
 }
 
 .position {
@@ -230,7 +230,7 @@ label:active:after {
 }
 
 .position__padding {
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .position--size {
@@ -243,11 +243,11 @@ label:active:after {
 }
 
 .text__padding {
-  padding-top: 28px;
+  margin-top: 28px;
 }
 
 .text__padding--1 {
-  padding: 26px 0 63px;
+  margin: 26px 0 63px;
 }
 
 .photo {
@@ -299,7 +299,7 @@ label:active:after {
 }
 
 .row-padding {
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .btn__position {
@@ -394,7 +394,7 @@ label:active:after {
   }
 
   .content {
-    margin: 110px;
+    margin: 110px 0;
     border-bottom: none;
   }
 
